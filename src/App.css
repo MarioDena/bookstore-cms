@@ -7,46 +7,48 @@
   margin-top: 5px;
 }
 
-.Bookstable, .BooksForm{
+.Bookstable,
+.BooksForm {
   width: 700px;
   margin: 0 auto;
 }
 
-.Bookstable{
+.Bookstable {
   color: white;
   margin-top: 15px;
 }
 
-.btn-add{
+.btn-add {
   width: 200px;
   align-self: center;
 }
 
-.BooksForm{
- border-radius: 5px;
- margin-top: 30px;
- background-color: white;
- padding: 10px;
+.BooksForm {
+  border-radius: 5px;
+  margin-top: 30px;
+  background-color: white;
+  padding: 10px;
 }
 
-.book{
+.book {
   display: flex;
 }
 
-.book-t, .book-c{
+.book-t,
+.book-c {
   color: white;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.book-t{
+.book-t {
   width: 300px;
 }
 
-.book-c{
+.book-c {
   width: 150px;
 }
 
-select{
+select {
   display: block;
 }
