@@ -21,6 +21,7 @@ const BookList = (props) => {
   const handleDeleteBook = (book) => deleteBook(book);
   return (
     <div className="Bookstable">
+      <h3>Bookstore CMS</h3>
       <div className="table">
         {books.map((book) => (
           <Book
