@@ -32,7 +32,14 @@ const BookList = (props) => {
         {books
           .filter((b) => category === 'All' || b.category === category)
           .map((book) => (
-            <Book book={book} key={book.id} deleteBook={handleDeleteBook} />
+            <Book
+              book={book}
+              key={book.id}
+              id={book.id}
+              category={book.category}
+              title={book.title}
+              deleteBook={handleDeleteBook}
+            />
           ))}
       </div>
     </div>
