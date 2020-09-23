@@ -15,7 +15,7 @@ const CategoryFilter = (props) => {
   const { changeFilter } = props;
   const handleFilterChange = (ev) => changeFilter(ev.target.value);
   return (
-    <div className="container-filter">
+    <div className="filter">
       <select onChange={handleFilterChange}>
         {categories.map((c) => (
           <option value={c} key={c}>

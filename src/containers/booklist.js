@@ -6,6 +6,7 @@ import { deleteBooks } from '../actions/index';
 import { filterBooks } from '../actions/index';
 import Book from '../components/Book';
 import CategoryFilter from '../components/CategoryFilter';
+import login from '../styles/Login.png';
 
 const mapStateToProps = (state) => {
   return {
@@ -26,8 +27,12 @@ const BookList = (props) => {
   const handleDeleteBook = (book) => deleteBook(book);
   return (
     <div className="Bookstable">
-      <CategoryFilter changeFilter={changeFilter} />
-      <h3>Bookstore CMS</h3>
+      <div className="mainnav">
+        <h4>Bookstore CMS</h4>
+        <p>FILTER:</p>
+        <CategoryFilter changeFilter={changeFilter} />
+        <img className="login" src={login} alt="login" />
+      </div>
       <div className="table">
         {books
           .filter((b) => category === 'All' || b.category === category)
@@ -38,6 +43,7 @@ const BookList = (props) => {
               id={book.id}
               category={book.category}
               title={book.title}
+              completed={book.completed}
               deleteBook={handleDeleteBook}
             />
           ))}
