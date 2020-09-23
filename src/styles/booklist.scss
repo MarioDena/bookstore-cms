@@ -1,3 +1,4 @@
+/* stylelint-disable */
 .Bookstable {
   h4 {
     font-weight: bold;
@@ -24,7 +25,7 @@
     padding-left: 100px;
     padding-right: 100px;
     margin-top: 0px;
-    background-color: #ffffff;
+    background-color: #fff;
 
     .filter {
       margin-top: 12px;
@@ -69,7 +70,6 @@
 }
 
 .actionsList {
-
   display: flex;
 
   .action {
