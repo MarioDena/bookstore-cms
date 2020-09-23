@@ -3,6 +3,7 @@
     font-weight: bold;
     color: #0290ff;
   }
+
   p {
     margin: 50px;
     padding-top: 5px;
@@ -16,6 +17,7 @@
     line-height: normal;
     letter-spacing: 1.9px;
   }
+
   .mainnav {
     display: flex;
     align-items: center;
@@ -23,19 +25,24 @@
     padding-right: 100px;
     margin-top: 0px;
     background-color: #ffffff;
+
     .filter {
       margin-top: 12px;
       margin-left: -40px;
     }
+
     .login {
       margin-left: auto;
       cursor: pointer;
     }
+
     border-bottom: solid 1px #e8e8e8;
   }
+
   .Bookinfo {
     display: block;
     margin: 27px;
+
     .book-c {
       width: 49px;
       height: 18px;
@@ -43,6 +50,7 @@
       font-size: 14px;
       font-weight: bold;
     }
+
     .book-t {
       width: 500px;
       height: 29px;
@@ -50,6 +58,7 @@
       letter-spacing: -0.2px;
       font-weight: bold;
     }
+
     .author {
       height: 19px;
       font-size: 14px;
@@ -60,7 +69,9 @@
 }
 
 .actionsList {
+
   display: flex;
+
   .action {
     font-size: 14px;
     margin: 10px;
@@ -78,12 +89,14 @@
   width: 300px;
   height: 100px;
   border-right: 2px solid lightgray;
+
   .progressPercent {
     margin-top: -15px;
     opacity: 1;
     font-size: 32px;
     line-height: 3;
   }
+
   .progbar {
     margin-top: 10px;
     width: 80px;
@@ -118,6 +131,7 @@
   margin-left: 27px;
   cursor: pointer;
 }
+
 .btn-remove:focus {
   background-color: #8cc5f0;
 }
