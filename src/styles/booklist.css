@@ -56,7 +56,7 @@
 }
 
 .Bookstable .Bookinfo .book-t {
-  width: 500px;
+  overflow: hidden;
   height: 29px;
   font-size: 22px;
   letter-spacing: -0.2px;
