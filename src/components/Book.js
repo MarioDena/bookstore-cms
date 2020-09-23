@@ -17,6 +17,7 @@ const Book = (props) => {
         <div className="actionsList">
           <div className="action">Comments</div>
           <div className="action">Edit</div>
+          <div className="action2">Update</div>
         </div>
       </div>
       <div className="progdata">
@@ -27,6 +28,8 @@ const Book = (props) => {
         </div>
       </div>
       <div>
+        <div className="currentChapter">Current chapter</div>
+        <div className="Blerg">Chapter 4</div>
         <button className="btn-remove" onClick={handleDeleteBook} type="button">
           Delete
         </button>
