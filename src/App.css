@@ -2,53 +2,6 @@
   display: block;
 }
 
-.formtitle {
-  padding-top: 1px;
-  margin-top: 5px;
-}
-
-.Bookstable,
-.BooksForm {
-  width: 700px;
-  margin: 0 auto;
-}
-
-.Bookstable {
-  color: white;
-  margin-top: 15px;
-}
-
-.btn-add {
-  width: 200px;
-  align-self: center;
-}
-
-.BooksForm {
-  border-radius: 5px;
-  margin-top: 30px;
-  background-color: white;
-  padding: 10px;
-}
-
-.book {
-  display: flex;
-}
-
-.book-t,
-.book-c {
-  color: white;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.book-t {
-  width: 300px;
-}
-
-.book-c {
-  width: 150px;
-}
-
 select {
   display: block;
 }

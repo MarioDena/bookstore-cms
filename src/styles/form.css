@@ -1,0 +1,88 @@
+/* stylelint-disable */
+.BooksForm {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 0;
+}
+
+.BooksForm .formtitle {
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.BooksForm .formcontain {
+  display: block;
+}
+
+.BooksForm .formcontain form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.BooksForm .formcontain .title {
+  -webkit-transition: none;
+  transition: none;
+  padding-left: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #ffffff;
+}
+
+.BooksForm .formcontain input:focus {
+  padding-left: 20px;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.BooksForm .formcontain p {
+  margin: 10px;
+  margin-top: 15px;
+}
+
+.BooksForm .formcontain .categ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.BooksForm .formcontain select {
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #ffffff;
+  height: 46px;
+}
+
+.BooksForm .formcontain .btn-add {
+  width: 300px;
+  height: 46px;
+  border-radius: 3px;
+  border-color: transparent;
+  background-color: #0290ff;
+  color: white;
+  font-weight: bold;
+}
+/*# sourceMappingURL=form.css.map */

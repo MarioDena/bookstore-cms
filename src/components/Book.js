@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import prog from '../styles/prog.png';
 
 const Book = (props) => {
   const { book, deleteBook } = props;
@@ -9,10 +10,26 @@ const Book = (props) => {
 
   return (
     <div key={book.id} className="book">
-      <div className="book-c">{book.id}</div>
-      <div className="book-t">{book.title}</div>
-      <div className="book-c">Category: {book.category}</div>
+      <div className="Bookinfo">
+        <div className="book-c">{book.category}</div>
+        <div className="book-t">{book.title}</div>
+        <div className="author">Author Not implemented</div>
+        <div className="actionsList">
+          <div className="action">Comments</div>
+          <div className="action">Edit</div>
+          <div className="action2">Update</div>
+        </div>
+      </div>
+      <div className="progdata">
+        <img className="progbar" src={prog} alt="prgo" />
+        <div>
+          <p className="progressPercent">{book.complete}</p>
+          <p>Completed</p>
+        </div>
+      </div>
       <div>
+        <div className="currentChapter">Current chapter</div>
+        <div className="Blerg">Chapter 4</div>
         <button className="btn-remove" onClick={handleDeleteBook} type="button">
           Delete
         </button>

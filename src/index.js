@@ -11,13 +11,15 @@ const initialState = {
   books: [
     {
       id: Math.floor(Math.random() * 100000).toString(),
-      title: 'Test Book1',
+      title: 'One hundred Miles To Somewhere',
       category: 'Action',
+      complete: '90%',
     },
     {
       id: Math.floor(Math.random() * 100000).toString(),
-      title: 'Test Book whit a really long title',
+      title: 'One Yard Away From You',
       category: 'Action',
+      complete: '45%',
     },
   ],
 };
