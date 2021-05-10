@@ -1,3 +1,11 @@
+
+As I stated before on previuos reviews working on a readme while the project is incomplete goes against my workflow. And Readmes are mandatory only for complete projects.
+I will implement the readme when the curriculum ask me to or when I submit the final milestone.
+
+Please keep your observations on the README as optional since I'm following the curriculum by the letter. Thanks.
+
+https://cms-mariodena.herokuapp.com/
+
 ![img](https://img.shields.io/github/issues/MarioDena/Responsive-Design)
 ![img2](https://img.shields.io/github/license/MarioDena/Responsive-Design)
 
@@ -40,7 +48,8 @@ https://cms-mariodena.herokuapp.com/
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details 
 
-<!-- ACKNOWLEDGEMENTS -->
+
 ## Acknowledgements
 * [Microverse](https://www.microverse.org/)
 * [The Odin Project](https://www.theodinproject.com/)
+
